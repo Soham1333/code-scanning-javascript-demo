@@ -11,8 +11,7 @@ ClassC.prototype.foo = function() {
 
 ClassC.prototype.print = function () {
     ClassB.prototype.print.call(this);
-    console.log("Sounds like this is working!");
-}
+    console.log("Sounds like this is working!")
 
 var c = new ClassC();
 c.print();
